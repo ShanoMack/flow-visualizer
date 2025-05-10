@@ -1,5 +1,3 @@
-import './assets/style.css'; 
-
 async function addSticky() {
     const stickyNote = await miro.board.createStickyNote({
         content: 'Hello, World!', 
