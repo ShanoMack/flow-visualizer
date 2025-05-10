@@ -8,4 +8,7 @@ async function addSticky() {
     await miro.board.viewport.zoomTo(stickyNote); 
 } 
 
+var buttonCreateSticky = document.getElementById("btn-add-sticky");
+buttonCreateSticky
+
 addSticky(); 
