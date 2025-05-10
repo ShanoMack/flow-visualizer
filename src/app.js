@@ -9,6 +9,5 @@ async function addSticky() {
 } 
 
 var buttonCreateSticky = document.getElementById("btn-add-sticky");
-buttonCreateSticky
 
 addSticky(); 
