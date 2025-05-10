@@ -1,8 +1,8 @@
-export async function init() {
-    console.log("Working app");
-    miro.board.ui.on('icon:click', async () => {
-        await miro.board.ui.openPanel({ url: 'app.html' }); 
-    }); 
-} 
-
-init(); 
+document.addEventListener('DOMContentLoaded', () => {
+  const button = document.getElementById('open-sidebar');
+  if (button) {
+    button.addEventListener('click', () => {
+      miro.board.ui.openPanel({ url: 'sidebar.html' });
+    });
+  }
+});
