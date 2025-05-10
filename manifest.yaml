@@ -1,0 +1,13 @@
+appName: Flow Visualizer
+sdkVersion: SDK_V2
+sdkUri: https://shanomack.github.io/flow-visualizer/index.html
+boardPicker:
+  allowedDomains: []
+redirectUris: []
+redirectUriForSdk: ''
+scopes:
+  - boards:read
+  - boards:write
+icons:
+  colored: ''
+  outline: ''
